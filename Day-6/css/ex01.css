@@ -116,6 +116,10 @@ p > span {
     display: none;
 }
 
+.wrapper-contact input:focus ~ .title {
+    display: block;
+}
+
 .title::after {
     content: "";
     position: absolute;
@@ -135,7 +139,7 @@ p > span {
     float: right;
 }
 
-/* Appear hidden */
+/* Active focus Appear hidden */
 .wrapper-contact input:focus ~ span .appear,
 .wrapper-contact input:active ~ span .appear,
 .wrapper-contact select:focus ~ span .appear,
@@ -155,4 +159,16 @@ p > span {
 }
 
 
+
+
+
+/* hover */
+.wrapper-contact:hover label{
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.wrapper-contact:hover input {
+    border: 1px solid #000;
+}
 
