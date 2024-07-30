@@ -29,6 +29,11 @@ body {
   position: relative;
   margin-bottom: 4em;
 }
+
+.list-menu .menu-item .menu-itemHeading {
+  font-size: 1.5em;
+}
+
 .menu-item::after {
   content: "";
   display: block;
